@@ -49,7 +49,7 @@
             if(this.checkValidity()===false)
             {
                 evento.preventDefault();
-                evento.stopPropagation();//deterner el evento que no avise a los elementos padre
+                evento.stopPropagation();
             }
             this.classList.add('was-validated');
         });
